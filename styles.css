@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 40px;
+  border-radius: 6px;
+  margin: 0 200px;
+  section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    label {
+      font-weight: 600;
+      font-size: 14px;
+    }
+    input {
+      border: 1px solid rgba(115, 115, 115, 1);
+      border-radius: 2px;
+      padding: 10px;
+      margin-bottom: 30px;
+      color: rgba(115, 115, 115, 1);
+    }
+    select {
+      border: 1px solid rgba(115, 115, 115, 1);
+      border-radius: 2px;
+      padding: 10px;
+      margin-bottom: 30px;
+      color: rgba(115, 115, 115, 1);
+    }
+  }
+
+  button {
+    background-color: rgb(106, 111, 245);;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 4px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }

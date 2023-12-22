@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/form.html">Form</a>
+    </nav>
+    <section class="form-container">
+      <form action="">
+        <section>
+          <div class="input-container">
+            <label for="firstName"> First Name</label>
+            <input required type="text" />
+          </div>
+          <div class="input-container">
+            <label for="lastName"> Last Name</label>
+            <input required type="text" />
+          </div>
+        </section>
+        <section>
+          <div class="input-container">
+            <label for="gender"> Gender</label>
+            <select name="gender" id="gender">
+              <option value="">Select here</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="n/a">Rather not say</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="dob"> Date of Birth</label>
+            <input required type="date" placeholder="Select here" />
+          </div>
+        </section>
+        <section>
+          <div class="input-container">
+            <label for="email">Email Address</label>
+            <input required type="email" placeholder="Enter email address" />
+          </div>
+          <div class="input-container">
+            <label for="education"> Education Level</label>
+            <select name="education" id="education">
+              <option value="">Select level of Education</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </section>
+        <section>
+          <div class="input-container">
+            <label for="country"> Country</label>
+            <select name="country" id="country">
+              <option value="">Select country</option>
+              <option value="nig">Nigeria</option>
+              <option value="gh">Ghana</option>
+              <option value="ky">kenya</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="state"> State/City of Residence</label>
+            <input required type="text" placeholder="Enter city name" />
+          </div>
+        </section>
+        <section>
+          <div class="input-container">
+            <label for="employment"> Employment Status</label>
+            <select name="employment" id="employment">
+              <option value="">Select employment status</option>
+              <option value="employed">Employed</option>
+              <option value="unemployed">Unemployed</option>
+              <option value="n/a">kenya</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="phone"> Phone number</label>
+            <input required type="text" placeholder="08000011188" />
+          </div>
+        </section>
+        <section>
+          <div class="input-container">
+            <label for="school"> Choose School</label>
+            <select name="school" id="school">
+              <option value="">Select school</option>
+              <option value="Engineering">School of Engineering</option>
+              <option value="Data">School of Data</option>
+              <option value="Product">School of Product</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="course"> Choose Course of Study</label>
+            <select name="course" id="course">
+              <option value="">Select course</option>
+              <option value="Engineering">Frontend Engineering</option>
+              <option value="Data">Backend Engineering</option>
+              <option value="Product">Cloud Engineering</option>
+            </select>
+          </div>
+        </section>
+        <section>
+          <div class="input-container">
+            <label for="feedback">How did you hear about us?</label>
+            <select name="feedback" id="feedback">
+              <option value="">Select channel</option>
+              <option value="whatsapp">WhatsApp</option>
+              <option value="x">X</option>
+              <option value="facebook">Facebook</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="discounr"> Scholarship/Discount Code (optional)</label>
+            <input required type="text" placeholder="Enter discount code" />
+          </div>
+        </section>
+        <p>
+          By clicking continue, I agree to <a href="">Terms of Use</a> and
+          acknowledge that I have read the <a href="">Privacy Policy</a>.
+        </p>
+        <button type="submit">Proceed</button>
+      </form>
+    </section>
+  </body>
+</html>
